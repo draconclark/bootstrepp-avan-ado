@@ -1,0 +1,45 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.carousel {
+    max-width: 100%;
+    overflow: hidden;
+}
+
+.carousel img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    padding: 20px;
+}
+
+.card {
+    border: 1px solid #ddd;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+@media screen and (max-width: 768px) {
+    .grid-container {
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    }
+}
+
+#menu{
+    z-index: 9999;
+    background-color: #05000000;
+}
+#menu{
+    z-index: 9999;
+    background-color: rgb(255, 255, 255);
+}
